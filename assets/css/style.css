@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap');
 @media all {
     body {
-        font-family: Montserrat, sans-serif;
+        /* font-family: Montserrat, sans-serif; */
         font-size: 13px;
         font-style: inherit;
         font-weight: 400;
@@ -32,7 +32,11 @@ body {
 }
 
 @media all {
-    * {
+    html {
+        box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
         box-sizing: inherit;
     }
 }
@@ -154,11 +158,11 @@ form.search-form button:hover {
         width: 100%;
     }
 
-    .hero-section h1 {
+    .hero h1 {
         font-size: 2rem;
     }
 
-    .hero-section p {
+    .hero p {
         font-size: 1rem;
     }
 }
