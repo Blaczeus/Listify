@@ -1,3 +1,36 @@
-* {
-    
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2854a1;
+    padding: 20px;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url("https: //listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2019/05/Stocksy_txpbfa0785eO7M200_Medium_832542-1.jpg");
+    background-size: cover;
+}
+
+.overlay-content {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+
 }
