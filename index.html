@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" href="https://listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/05/cropped-astoundify-favicon-32x32.png" type="image/x-icon">
         <title>Listify</title>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     </head>
 
     <body>
@@ -18,13 +21,13 @@
             <div class="nav-bar">
                 <div class="nav-links">
                     <ul>
-                        <li class=""><a href="#">Demos</a></li>
-                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Demos <ion-icon name="chevron-down-outline"></ion-icon></a></li>
+                        <li><a href="#">Explore <ion-icon name="chevron-down-outline"></ion-icon></a></li>
                         <li><a href="#">Our Addons</a></li>
-                        <li><a href="#">Elementor Pages</a></li>
-                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Elementor Pages <ion-icon name="chevron-down-outline"></ion-icon></a></li>
+                        <li><a href="#">Learn <ion-icon name="chevron-down-outline"></ion-icon></a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">+ Add your Listing</a></li>
+                        <li><a href="#">Add Your Listing <ion-icon name="add"></ion-icon></a></li>
                         <li><a href="#">Log In</a></li>
                     </ul>
                 </div>
@@ -49,8 +52,56 @@
             </div>
         </section>
         <section class="section section-1">
-            <h2>Section 1</h2>
-            <p>This is the content for section 1.</p>
+            <div class="intro">
+                <h1>How it Works</h1>
+                <p>Bringing business and community members together.</p>
+            </div>
+
+            <div class="cards community-cards" data-columns="3">
+
+                <!-- First Card -->
+                <div class="card">
+                    <div class="card-media">
+                        <img src="https://listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/05/search-online.svg"
+                            alt="Find Businesses Icon" class="card-icon">
+                    </div>
+                    <div class="card-title">
+                        <h2>Find Businesses</h2>
+                    </div>
+                    <div class="card-description">
+                        <p>Discover &amp; connect with great local businesses in your local neighborhood like dentists, hair stylists, and more.</p>
+                    </div>
+                </div>
+            
+                <!-- Second Card -->
+                <div class="card">
+                    <div class="card-media">
+                        <img src="https://listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/05/find-listing.svg"
+                            alt="Review Listings Icon" class="card-icon">
+                    </div>
+                    <div class="card-title">
+                        <h2>Review Listings</h2>
+                    </div>
+                    <div class="card-description">
+                        <p>Get valuable insights about listings and tell other readers about your experiences by leaving reviews for businesses.</p>
+                    </div>
+                </div>
+            
+                <!-- Third Card -->
+                <div class="card">
+                    <div class="card-media">
+                        <img src="https://listify-demos.astoundify.com/classic/wp-content/uploads/sites/2/2016/05/make-online-booking.svg"
+                            alt="Make a Reservation Icon" class="card-icon">
+                    </div>
+                    <div class="card-title">
+                        <h2>Make a Reservation</h2>
+                    </div>
+                    <div class="card-description">
+                        <p>Easily setup an appointment directly from the business listing page using our integrated booking options.</p>
+                    </div>
+                </div>
+                
+            </div>
         </section>
         
         <section class="section section-2">
